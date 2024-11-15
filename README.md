@@ -3,7 +3,8 @@
 ![Demo App](/public/img1.png)
 ![Demo App](/public/img2.png)
 
-## video of project working - https://www.loom.com/share/ae88d0e658a64a49a64be4ab3f693768?sid=8abbf8a3-c7ce-47c5-914f-2c4015d500fb
+## video of project working:
+- https://www.loom.com/share/56de4e0b70834a6f9a5791f26cfc71fa?sid=ce2d0c4e-289b-4da3-bdcc-22a7f671f6b0
 
 ## To run the app
 - npm install for node modules
