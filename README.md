@@ -1,8 +1,9 @@
-# React + Vite
+## Image-Search APP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## video of project working - https://www.loom.com/share/ae88d0e658a64a49a64be4ab3f693768?sid=8abbf8a3-c7ce-47c5-914f-2c4015d500fb
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## To run the app
+- npm install for node modules
+- create a .env file
+- create variable inside it naming VITE_UNSPLASH_API= "your unsplash api key"
+- npm run dev
