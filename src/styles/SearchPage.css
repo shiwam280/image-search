@@ -1,0 +1,33 @@
+.search-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.image-item img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.image-item img:hover {
+  transform: scale(1.05);
+}
+
+.image-item button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+}

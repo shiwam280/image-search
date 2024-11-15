@@ -1,0 +1,23 @@
+.add-caption-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.canvas-container {
+  margin: auto;
+  border: 1px solid #ccc;
+  object-fit: cover;
+}
+
+.controls {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  cursor: pointer;
+}
