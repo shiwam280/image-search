@@ -112,8 +112,8 @@ const FabricCanvas = () => {
   };
 
   return (
-    <div>
-      <div>
+    <div className="add-caption-container">
+      <div className="btn-list">
         <button onClick={addText}>Add Text</button>
         <button onClick={() => addShape("rectangle")}>Add Rectangle</button>
         <button onClick={() => addShape("circle")}>Add Circle</button>
@@ -126,7 +126,9 @@ const FabricCanvas = () => {
         height={600}
         style={{ border: "1px solid #ccc" }}
       />
-      <button onClick={downloadCanvasAsImage}>Download</button>
+      <button className="download-btn" onClick={downloadCanvasAsImage}>
+        Download
+      </button>
     </div>
   );
 };
